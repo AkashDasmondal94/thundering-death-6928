@@ -5,10 +5,11 @@ function Navbar(){
         <div id={style.main}>
         <div id={style.ist}>
         <div>
-            <img src="https://images.indianexpress.com/2021/01/myntra.png"/>
+      <Link to="/">  <img src="https://images.indianexpress.com/2021/01/myntra.png"/></Link>
         </div>
+        
         <div><Link to="/Mens"><p>Men</p></Link></div>
-        <div><p>WOMEN</p></div>
+        <div><Link to="/Women"><p>WOMEN</p></Link></div>
         <div><p>KIDS</p></div>
         <div><p>LIVING</p></div>
         <div><p>BEAUTY</p></div>
@@ -22,7 +23,7 @@ function Navbar(){
             <div>
                 <input type="text" placeholder="Search for product brands and more" />
             </div>
-            <div><p>Profile</p></div>
+            <div><Link to="/Profile"><p>Profile</p></Link></div>
             <div><p>Wishlist</p></div>
             <div><p>Bag</p></div>
         </div>

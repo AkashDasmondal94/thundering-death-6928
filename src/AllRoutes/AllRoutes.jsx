@@ -4,6 +4,7 @@ import Brand from "../Components/Brand";
 import BrandToBag from "../Components/BrandToBag";
 import Budgetbuys from "../Components/BudgetBuys";
 import Category from "../Components/Category";
+import Footer from "../Components/Footer";
 import Grand from "../Components/Grand";
 import LastCate from "../Components/LastCate";
 
@@ -19,8 +20,8 @@ function AllRoutes(){
     return(
         <>
         
-        <Navbar/>
-        <ARoutes/>
+       
+        
         <Poster/>
         <Bigoffer/>
         <Brand/>
@@ -32,6 +33,7 @@ function AllRoutes(){
         <Category/>
         <Shopcate/>
         <LastCate/>
+        <Footer/>
         
         
       
