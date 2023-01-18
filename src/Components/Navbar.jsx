@@ -8,12 +8,12 @@ function Navbar(){
       <Link to="/">  <img src="https://images.indianexpress.com/2021/01/myntra.png"/></Link>
         </div>
         
-        <div><Link to="/Mens"><p>Men</p></Link></div>
-        <div><Link to="/Women"><p>WOMEN</p></Link></div>
-        <div><p>KIDS</p></div>
-        <div><p>LIVING</p></div>
-        <div><p>BEAUTY</p></div>
-        <div><p>STUDIO</p></div>
+        <div><Link to="/Mens"><p className={style.nb}>Men</p></Link></div>
+        <div><Link to="/Women"><p className={style.nb} >WOMEN</p></Link></div>
+        <div><p className={style.nb}>KIDS</p></div>
+        <div><p className={style.nb}>LIVING</p></div>
+        <div><p className={style.nb}>BEAUTY</p></div>
+        <div><p className={style.nb}>STUDIO</p></div>
         
         </div>
         <div id={style.dui}>
@@ -23,9 +23,9 @@ function Navbar(){
             <div>
                 <input type="text" placeholder="Search for product brands and more" />
             </div>
-            <div><Link to="/Profile"><p>Profile</p></Link></div>
-            <div><p>Wishlist</p></div>
-            <div><p>Bag</p></div>
+            <div><Link to="/Profile"><p className={style.nb}>Profile</p></Link></div>
+            <div><p className={style.nb}>Wishlist</p></div>
+            <div><p className={style.nb}>Bag</p></div>
         </div>
         </div>
     )

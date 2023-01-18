@@ -1,9 +1,11 @@
 #main{
     border: 1px solid transparent;
-    width: 99%;
+    width: 100%;
     height: 80px;
     display: flex;
     cursor: pointer;
+    position: static;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
 }
 #ist{
@@ -66,4 +68,10 @@ input{
 #dui>div>p{
     font-weight: bold;
     color: rgb(75, 73, 73);
+}
+.nb{
+    font-weight: bold;
+    color: rgb(75, 73, 73);
+    text-decoration:none;
+    
 }
