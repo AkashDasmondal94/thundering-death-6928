@@ -1,4 +1,5 @@
 import style from "../Style/Navbar.module.css"
+import { Link } from 'react-router-dom'
 function Navbar(){
     return(
         <div id={style.main}>
@@ -6,7 +7,7 @@ function Navbar(){
         <div>
             <img src="https://images.indianexpress.com/2021/01/myntra.png"/>
         </div>
-        <div><p>Men</p></div>
+        <div><Link to="/Mens"><p>Men</p></Link></div>
         <div><p>WOMEN</p></div>
         <div><p>KIDS</p></div>
         <div><p>LIVING</p></div>
