@@ -3,54 +3,54 @@ const MensLastCate=()=>{
     return(
         <div id={style.last}>
            <div>
-            <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/e988c7f2-ba2c-4689-9b16-4562fb2334b81673167109254-HP_Shop-By-Category_02.jpg"/>
+            <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/2d4e7612-aa58-4a99-9868-983388738bfa1673168234441-Shop-By-Category_02.jpg"/>
            </div>
            <div>
-            <img src='https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/1a02b270-6967-4d29-9f45-15f72aebc66e1673167109264-HP_Shop-By-Category_03.jpg'/>
+            <img src='https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/53e3cadc-e321-4e0d-96d2-2006600efabd1673168234450-Shop-By-Category_03.jpg'/>
            </div>
            <div>
-            <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/0b2f02e5-d5b0-4c5a-90b0-8b277e5d4e9f1673167109275-HP_Shop-By-Category_04.jpg"/>
+            <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/4a373b8e-06e0-4ca3-ad82-18d9014ed6721673168234460-Shop-By-Category_04.jpg"/>
            </div>
            <div>
-           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/b1866f27-9de8-462f-a93a-5202fbf38d221673167109285-HP_Shop-By-Category_05.jpg"/>
+           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/1ebacf19-2a26-4c46-84b0-6a4e56ad03d91673168234470-Shop-By-Category_05.jpg"/>
            </div>
            <div>
-           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/8e0450b5-c63f-4e37-a773-8a065539f2c41673167109297-HP_Shop-By-Category_06.jpg"/>
+           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/eb0462e9-ad90-49eb-93d5-35c262b3427b1673168234478-Shop-By-Category_06.jpg"/>
            </div>
            <div>
-           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/c6f948a1-a336-4dbd-9df5-802fa7bee0611673167109308-HP_Shop-By-Category_07.jpg"/>
+           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/a17539fb-6025-46fb-bd3a-d90a91c0ae271673168234486-Shop-By-Category_07.jpg"/>
            </div>
            <div>
-           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/4c0055e3-e2bb-4cf7-9603-b44267bf0a851673167109320-HP_Shop-By-Category_08.jpg"/>
+           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/f0aa56fb-e0d4-4b41-a991-788c8443f4361673168234496-Shop-By-Category_08.jpg"/>
            </div>
            <div>
-           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/74a4dd77-ed29-4f14-93f3-f7ff1cf22cb81673167109332-HP_Shop-By-Category_09.jpg"/>
+           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/186a3aec-46f7-4f37-b320-34f9fd53f08e1673168234503-Shop-By-Category_09.jpg"/>
            </div>
            <div>
-           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/3dbe2f50-5ea3-41fa-b835-935e8e88dbed1673167109341-HP_Shop-By-Category_10.jpg"/>
+           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/8dcb0be1-2d82-4f7d-a6f3-e8fd56921c491673168234511-Shop-By-Category_10.jpg"/>
            </div>
            <div>
-           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/d19c0fce-61f1-4987-895a-8df5ece39e891673167109353-HP_Shop-By-Category_11.jpg"/>
+           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/d02a1fbe-2db3-449a-9636-ee7bc4104da81673168234520-Shop-By-Category_11.jpg"/>
            </div>
            <div>
-           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/46bab40b-6e48-4350-8558-a0f24f597f521673167109363-HP_Shop-By-Category_12.jpg"/>
+           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/a3ffd5b4-0f2f-4d2a-9de1-f06292dc705f1673168234530-Shop-By-Category_12.jpg"/>
            </div>
            
            <div>
-           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/605a0640-1b48-48c0-a569-d70058ff2e711673167109375-HP_Shop-By-Category_13.jpg"/>
+           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/934fe2ec-c198-418e-8cf3-4807ad2994e71673168234542-Shop-By-Category_13.jpg"/>
            </div>
            <div></div>
            <div>
-           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/7bac00be-78c0-4f51-b4cc-2b785f9530981673167109386-HP_Shop-By-Category_14.jpg"/>
+           <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/4fccc1c1-13cf-4a87-8a74-4ce62a632d361673168234563-Shop-By-Category_15.jpg"/>
            </div>
            <div>
-           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/edd7a1ed-bc37-4a33-b6ed-77354119d37f1673167109397-HP_Shop-By-Category_15.jpg"/>
+           <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/67af9136-5d7f-4914-8509-85956042f7301673168234573-Shop-By-Category_16.jpg"/>
            </div>
            <div>
-           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/4aebae7d-cac9-4c31-9eaa-dc7bf50210751673167109406-HP_Shop-By-Category_16.jpg"/>
+           <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/703a23aa-c4ad-4a30-8edd-c659ca41fe661673168234588-Shop-By-Category_17.jpg"/>
            </div>
            <div>
-           <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/b3c54352-88c3-43ef-9d24-77f59816238a1673167109417-HP_Shop-By-Category_17.jpg"/>
+           <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2023/1/8/fd6436f1-9761-4110-aa29-c97065ba77a51673168234611-Shop-By-Category_19.jpg"/>
            </div>
            
            
