@@ -10,12 +10,20 @@ import MensLastCate from "./MensLastCate";
 import MensPoster from "./MensPoster";
 import MensRoundBrand from "./MensRoundBrand";
 import Shopcate from "./ShopCate";
+import {Link, useNavigate} from "react-router-dom"
+import MensProducts from "./MensProducts";
+
 
 
 
 const Mens=()=>{
+    const navigate=useNavigate();
+    const hclick=()=>{
+        navigate("/MensProducts")
+    }
     return(
-        <div >
+
+         <div onClick={hclick} >
             
             <MensPoster/>
             <Bigoffer/>
@@ -29,6 +37,7 @@ const Mens=()=>{
            <Shopcate/>
            <MensLastCate/>
            <Footer/>
+           
             
         </div>
     )

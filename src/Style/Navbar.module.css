@@ -14,14 +14,19 @@
     height: auto;
     display: grid;
     grid-template-columns: repeat(7,1fr);
+    text-decoration: none;
+
 }
 #ist>div{
     border: 1px solid transparent;
+    
     
 }
 #ist>div>p{
     font-weight: bold;
     color: rgb(75, 73, 73);
+    text-decoration: none;
+    
 }
 
 img{
@@ -68,10 +73,14 @@ input{
 #dui>div>p{
     font-weight: bold;
     color: rgb(75, 73, 73);
+    text-decoration: none;
+   
 }
 .nb{
     font-weight: bold;
     color: rgb(75, 73, 73);
-    text-decoration:none;
+    text-decoration: none;
+    
+    
     
 }
