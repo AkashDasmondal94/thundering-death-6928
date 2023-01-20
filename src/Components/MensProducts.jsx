@@ -26,7 +26,7 @@ const MensProducts=({image,name,price,title,id})=>{
            fetchData(page)
         },[page])
 
-        
+      
         
 
   return(

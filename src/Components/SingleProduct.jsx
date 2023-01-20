@@ -24,13 +24,33 @@ const SingleProduct=()=>{
 
     return(
         <div id={style.main}>
-        <h1>hello</h1>
-       
+        
+       <div className={style.big}>
         <img src={data.image}/>
-        <h5>{data.name}</h5>
-        <p>{data.title}</p>
-        <p>{data.price}</p>
-         <button>Add to cart</button>
+        </div>
+        <div className={style.big}>
+        <img src={data.image}/>
+        </div>
+        <div id={style.detaii}>
+        <h1>{data.name}</h1>
+        <h2>{data.title}</h2>
+        <h1>Rs.{data.price}</h1>
+        <h3>Select Size(UK Size)</h3>
+        
+        <button className={style.btn}>6</button>
+        <button className={style.btn} >7</button>
+        <button className={style.btn}>8</button>
+        <button className={style.btn}>9</button>
+        <button className={style.btn}>10</button>
+        <div >
+          <button id={style.wishlist}>Add To Bag</button>
+          </div>
+        </div>
+        
+        <div>
+        
+        </div>
+      
         </div>
     )
 }
