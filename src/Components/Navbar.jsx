@@ -14,6 +14,8 @@ function Navbar(){
         logout()
         navigate("/Profile")
       }
+   
+    
     return(
         <div id={style.main}>
         <div id={style.ist}>
@@ -36,8 +38,8 @@ function Navbar(){
             <div>
                 <input type="text" placeholder="Search for product brands and more" />
             </div>
-            <div><Link to="/Profile"><p className={style.nb}>Profile</p></Link></div>
-            <div><p  onClick={hLogout} className={style.nb}>Logout</p></div>
+            <div style={{marginRight:"12px"}}><Link to="/Profile"><p onClick={hLogout} className={style.nb}>Login/Out</p></Link></div>
+            
             <div><p className={style.nb}>Wishlist</p></div>
             <div><Link to="/Bag"><p className={style.nb}>Bag</p></Link></div>
             
