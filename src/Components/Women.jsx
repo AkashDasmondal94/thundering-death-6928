@@ -10,10 +10,15 @@ import WomensBagbrands from "./WomensBagbrands";
 import WomensBrand from "./WomensBrand";
 import WomensCategory from "./WomensCategory";
 import WomensLastCate from "./WomensLastCate";
+import {Link, useNavigate} from "react-router-dom"
 
 const Women=()=>{
+    const navigate=useNavigate();
+    const hclick=()=>{
+        navigate("/WomenProducts")
+    }
     return(
-        <div>
+        <div onClick={hclick}>
             <WomensPoster/>
             <Bigoffer/>
             <WomensBrand/>

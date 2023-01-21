@@ -5,19 +5,25 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import {useParams} from "react-router-dom"
 
-const SingleProduct=()=>{
+const WomenSingleproducts=()=>{
     const [data,setData]=useState([])
+    const[item,setItem]=useState([])
 
     const {id} = useParams()
     console.log(id)
 
-    
+    const bag=()=>{
+      localStorage.setItem('items', JSON.stringify(item))
+      alert("Successful")
+    }
 
      useEffect(()=>{
-        axios.get(`http://localhost:8000/Mensproducts/${id}`)
+        axios.get(`http://localhost:8000/women/${id}`)
         .then((res)=>{
           console.log(res.data)
-          setData(res.data)
+          setData(res.data);
+          setItem(res.data)
+          
          
         })
       },[]);
@@ -43,7 +49,7 @@ const SingleProduct=()=>{
         <button className={style.btn}>9</button>
         <button className={style.btn}>10</button>
         <div >
-          <button id={style.wishlist}>Add To Bag</button>
+          <button onClick={bag} id={style.wishlist}>Add To Bag</button>
           </div>
           <div>
             <p>100% Original Products</p>
@@ -66,4 +72,4 @@ const SingleProduct=()=>{
         </div>
     )
 }
-export default SingleProduct;
+export default WomenSingleproducts;

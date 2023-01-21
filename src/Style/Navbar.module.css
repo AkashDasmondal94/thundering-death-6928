@@ -84,3 +84,9 @@ input{
     
     
 }
+.tb{
+    margin-top: 19px;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+}

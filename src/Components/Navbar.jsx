@@ -1,6 +1,16 @@
 import style from "../Style/Navbar.module.css"
 import { Link } from 'react-router-dom'
+import { AppContext } from "../Context/AppContextProvider"
+import React,{useContext,useState} from 'react'
+import {useNavigate} from "react-router-dom"
+
 function Navbar(){
+    const navigate=useNavigate();
+    const {ath , token,login,logout, }=useContext(AppContext)
+    const hLogout=()=>{
+        logout()
+        navigate("/")
+      }
     return(
         <div id={style.main}>
         <div id={style.ist}>
@@ -24,8 +34,10 @@ function Navbar(){
                 <input type="text" placeholder="Search for product brands and more" />
             </div>
             <div><Link to="/Profile"><p className={style.nb}>Profile</p></Link></div>
+            <div><p onClick={hLogout} className={style.nb}>Logout</p></div>
             <div><p className={style.nb}>Wishlist</p></div>
-            <div><p className={style.nb}>Bag</p></div>
+            <div><Link to="/Bag"><p className={style.nb}>Bag</p></Link></div>
+            
         </div>
         </div>
     )
