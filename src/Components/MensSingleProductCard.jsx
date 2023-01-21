@@ -6,7 +6,7 @@ function MensSingleProductCard({image,name,price,title,id}){
    })
     let  navigate=useNavigate();
     const wishlist=()=>{
-        localStorage.setItem("data",JSON.stringify([data]))
+        localStorage.setItem("items",JSON.stringify([data]))
         alert("Added WishesList")
     }
     return(

@@ -7,9 +7,12 @@ import {useNavigate} from "react-router-dom"
 function Navbar(){
     const navigate=useNavigate();
     const {ath , token,login,logout, }=useContext(AppContext)
+
+   
     const hLogout=()=>{
+        
         logout()
-        navigate("/")
+        navigate("/Profile")
       }
     return(
         <div id={style.main}>
@@ -34,7 +37,7 @@ function Navbar(){
                 <input type="text" placeholder="Search for product brands and more" />
             </div>
             <div><Link to="/Profile"><p className={style.nb}>Profile</p></Link></div>
-            <div><p onClick={hLogout} className={style.nb}>Logout</p></div>
+            <div><p  onClick={hLogout} className={style.nb}>Logout</p></div>
             <div><p className={style.nb}>Wishlist</p></div>
             <div><Link to="/Bag"><p className={style.nb}>Bag</p></Link></div>
             

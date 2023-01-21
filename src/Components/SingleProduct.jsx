@@ -22,6 +22,10 @@ const SingleProduct=()=>{
         })
       },[]);
 
+      const wishlist=()=>{
+        localStorage.setItem("items",JSON.stringify([data]))
+        alert("Added WishesList")
+    }
     return(
         <div id={style.main}>
         
@@ -43,7 +47,7 @@ const SingleProduct=()=>{
         <button className={style.btn}>9</button>
         <button className={style.btn}>10</button>
         <div >
-          <button id={style.wishlist}>Add To Bag</button>
+          <button  onClick={wishlist} id={style.wishlist}>Add To Bag</button>
           </div>
           <div>
             <p>100% Original Products</p>
