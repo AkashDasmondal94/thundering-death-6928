@@ -1,13 +1,23 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
+import React,{useContext} from 'react';
+import { AppContext } from "../Context/AppContextProvider"
 function WomensingleCard({image,name,price,title,id}){
+    const {ath , token,login,logout, }=useContext(AppContext)
    const [data,setData] = useState({
     image,name,price,title,id
    })
     let  navigate=useNavigate();
     const wishlist=()=>{
-        localStorage.setItem("items",JSON.stringify([data]))
+        if(ath){
+            localStorage.setItem("items",JSON.stringify([data]))
         alert("Added WishesList")
+        }
+        else{
+            alert('Please Login')
+            navigate("/Profile")
+        }
+        
     }
     return(
         <div>

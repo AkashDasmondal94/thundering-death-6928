@@ -3,9 +3,13 @@ import axios from 'axios'
 import React from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react'
-import {useParams} from "react-router-dom"
+import {Navigate, useParams} from "react-router-dom"
+import { useNavigate } from 'react-router-dom';
+import {useContext} from 'react';
+import { AppContext } from "../Context/AppContextProvider"
 
 const WomenSingleproducts=()=>{
+  const {ath , token,login,logout, }=useContext(AppContext)
     const [data,setData]=useState([])
     const[item,setItem]=useState([])
 
@@ -13,8 +17,15 @@ const WomenSingleproducts=()=>{
     console.log(id)
 
     const bag=()=>{
-      localStorage.setItem('items', JSON.stringify(item))
-      alert("Successful")
+      if(ath){
+        localStorage.setItem('items', JSON.stringify([data]))
+      alert("Added to  Cart")
+      }
+      else{
+        alert('Please Login')
+        Navigate("/Profile")
+      }
+      
     }
 
      useEffect(()=>{

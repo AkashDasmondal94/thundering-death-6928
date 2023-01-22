@@ -3,9 +3,15 @@ import axios from 'axios'
 import React from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react'
-import {useParams} from "react-router-dom"
+import {useParams} from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
+import { AppContext } from "../Context/AppContextProvider";
+import {useContext} from 'react';
+
 
 const SingleProduct=()=>{
+  const {ath , token,login,logout, }=useContext(AppContext)
+  let  navigate=useNavigate();
     const [data,setData]=useState([])
 
     const {id} = useParams()
@@ -23,8 +29,15 @@ const SingleProduct=()=>{
       },[]);
 
       const wishlist=()=>{
-        localStorage.setItem("items",JSON.stringify([data]))
-        alert("Added WishesList")
+        if(ath){
+          localStorage.setItem("items",JSON.stringify([data]))
+        alert("Added Cart")
+        }
+        else{
+            alert('Please Login')
+            navigate("/Profile")
+        }
+        
     }
     return(
         <div id={style.main}>

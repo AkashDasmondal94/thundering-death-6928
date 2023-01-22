@@ -8,12 +8,13 @@ import Women from "../Components/Women";
 import WomenProducts from "../Components/WomenProducts";
 import WomenSingleproducts from "../Components/WomenSingleProduct";
 import AllRoutes from "./AllRoutes";
+import Private from "../Components/PrivateRoutes"
 const ARoutes=()=>{
     return(
         <div>
             <Routes>
             <Route path="/" element={<AllRoutes/>}/>
-            <Route path="/Bag" element={<Bag/>}/>
+            <Route path="/Bag" element={<Private><Bag/></Private>}/>
             <Route path="/Mens" element={<Mens/>}/>
             <Route path="/Women" element={<Women/>}/>
             <Route path="/Profile" element={<Profile/>}/>
